@@ -5,12 +5,12 @@
     padding: 94px 0;
   }
 }
-@media (min-width: 768px) {
   .team-card {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
-}
+
 
 .team-card__list {
   width: 450px;
