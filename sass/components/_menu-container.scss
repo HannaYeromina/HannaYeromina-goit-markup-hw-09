@@ -1,5 +1,6 @@
 .menu-container {
     position: fixed;
+    padding: 48px 40px;
     top:0;
     left: 0;
     width: 100%;
@@ -29,10 +30,6 @@
  .menu-button__hover:hover {
   color: $color-hover;
  }
- .menu-nav-site {
-  margin-top: 48px;
-  margin-left: 48px;
-}
 .menu-nav-site__list {
   &:first-child {
     margin-bottom: 35.71px;
@@ -59,7 +56,6 @@
 }
 .menu-contact__link {
   text-decoration: none;
-  margin-left: 40px;
 }
 .menu-contact__tel {
   display: inline-block;
@@ -81,7 +77,8 @@
 }
 .menu-network {
   display: flex;
-  margin-left: 40px;
+  flex-wrap: wrap;
+  
   &:last-child {
     margin-right: 0;
   }
